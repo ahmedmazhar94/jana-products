@@ -1,0 +1,150 @@
+/*---------------------------------------
+     RESPONSIVE STYLES              
+  -----------------------------------------*/
+
+  @media screen and (max-width: 1170px) {
+    .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: inherit;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 1200px) {
+    .about-info {
+      padding-right: 0;
+    }
+  
+    .about-image {
+      position: relative;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
+    section 
+  
+    .custom-navbar .section-btn {
+      margin-left: 1em;
+    }
+  
+    .slider .item {
+      background-position: center;
+    }
+  
+    .about-info {
+      padding: 0;
+    }
+  
+    .team-info {
+      margin-bottom: 50px;
+    }
+  
+    #menu .menu-thumb {
+      width: 100%;
+    }
+  
+    #testimonial {
+      background-position: 50% 0 !important;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .custom-navbar .nav li a {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 5em;
+    }
+  
+    h1,
+    h2,
+    h3 {
+      line-height: normal;
+    }
+  
+    .custom-navbar {
+      -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+      text-align: center;
+      background-color: var(--secondaryColor);
+    }
+  
+    .custom-navbar .nav li a {
+      line-height: normal;
+      padding: 10px;
+
+    }
+  
+    .custom-navbar .navbar-brand,
+    .top-nav-collapse .navbar-brand {
+      color: #2222;
+      font-weight: 600;
+      
+    }
+  
+    .custom-navbar .nav li a,
+    .top-nav-collapse .nav li a {
+      color: #575757;
+      
+    }
+  
+    .custom-navbar .navbar-nav.navbar-right li {
+      display: inline-block;
+      
+    }
+  
+    .custom-navbar .navbar-nav.navbar-right .section-btn {
+      display: block !important;
+      width: 50%;
+      margin: 10px auto 10px auto;
+      padding: 10px;
+      
+    }
+  
+    .custom-navbar .section-btn a {
+      color: #575757 !important;
+      
+    }
+  
+    .slider .caption {
+      padding: 0;
+    }
+  
+    .menu-thumb .menu-info {
+      top: 20%;
+    }
+  
+    .footer-open-hour {
+      right: 0;
+      bottom: 0;
+      margin-top: 30px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 580px) {
+    h1 {
+      font-size: 2.1em;
+    }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    .menu-thumb .menu-info {
+      top: 60%;
+    }
+  }
+  
+  .nav-Logo img {
+    width: 150px;
+    margin-top: 0;
+    float: left;
+  }
