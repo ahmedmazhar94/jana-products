@@ -179,7 +179,6 @@ section {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 var(--primaryColor);
 }
 
 .spinner {
@@ -199,8 +198,8 @@ section {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 3px solid var(--thirdColor);
-  border-top-color: var(--primaryColor);
+  border: 3px solid var(--primaryColor);
+  border-top-color: var(--thirdColor);
   animation: spinner .9s linear infinite;
 }
 
@@ -446,7 +445,7 @@ position: absolute;
 }
 
 .overlay-layer {
-  background-color: rgba(0, 0, 0, 0.38);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0px;
