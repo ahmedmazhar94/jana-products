@@ -5,6 +5,16 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
 }
 
 html {
@@ -16,8 +26,8 @@ html {
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
 }
 
 h1,
@@ -107,8 +117,9 @@ a:focus {
   background: #000000;
 }
 
-.section-title {
-  padding-bottom: 40px;
+.for-export-s-title {
+  padding: 20px;
+  max-width: 1000px;
 }
 
 .section-title h2 {
@@ -350,6 +361,7 @@ section {
 
 #home {
   padding: 0;
+  margin: 0;
 }
 
 #home h1 {
@@ -524,6 +536,7 @@ section {
 
 #about {
   padding: 0;
+  margin: 0;
 }
 
 .about-info {
@@ -619,6 +632,8 @@ section {
 
 #menu {
   padding: 0;
+  margin: 0;
+  max-width: 1000px;
 }
 
 #menu .container {
@@ -831,7 +846,7 @@ footer address p {
 
 .for-export {
   width: 100%;
-  padding: 5% 0 0 0;
+  padding: 10% 0;
 }
 
 .ourProducts {
@@ -1044,8 +1059,8 @@ h4 {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
-  padding: 55px 50px;
+  font: bold 13px sans-serif;
+  padding: 30px 15px;
 }
 
 .footer-distributed .footer-left,
@@ -1106,14 +1121,14 @@ h4 {
 .footer-distributed .footer-center i {
   background-color: #33383b;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
   width: 38px;
   height: 38px;
   border-radius: 50%;
   text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
-  vertical-align: middle;
+  line-height: 40px;
+  margin: 10px 10px;
+  
 }
 
 .footer-distributed .footer-center i.fa-envelope {
@@ -1200,4 +1215,9 @@ h4 {
   justify-content: center;
   padding-top: 5px;
   flex-wrap: nowrap;
+}
+.email-icon p{
+  flex-wrap: nowrap;
+font-size: medium;
+font-weight: bolder;
 }

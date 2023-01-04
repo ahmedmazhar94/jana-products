@@ -167,3 +167,14 @@
     }
   
   }
+
+  @media only screen and (max-width: 580px) {
+    html,body{
+ 
+      margin: 0;
+      padding: 0;
+     
+
+    }
+
+  }
