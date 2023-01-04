@@ -4,10 +4,10 @@ jana dates product website
 */
 
 html {
-  --primaryColor: #E5BA73;
+  --primaryColor: #ffab4c;
   --secondaryColor: #FFFFFF;
   --thirdColor: #587850;
-  --fourthColor: #2C3333;
+  --fourthColor: #222222;
 }
 
 
@@ -67,23 +67,23 @@ a {
 }
 
 
-.nav-Bar{
-  float: left;
+.navo{
+  padding-left: 10%;
 }
 
 
 .nav-Logo {
-  width: 150%;
+  width: 30%;
+  position: absolute;
+  padding-right: 30px;
+  box-shadow: 200px #1c1c1c;
  
 }
 
 .nav-Logo img{
-  background-color: var(--secondaryColor);
-  width: 200%;
-  border-radius: 10px;
-  border: solid 1px var(--primaryColor);
-  margin-left: 13%;
-  padding-right: 19px;
+  width: 14%;
+
+
 }
 
 a:hover,
@@ -140,10 +140,7 @@ section {
   text-align: center;
 }
 
-.about-image img,
-.team-thumb img {
-  width: 100%;
-}
+
 
 
 
@@ -278,6 +275,7 @@ position: absolute;
   padding-right: 22px;
   padding-left: 22px;
   text-transform: uppercase;
+  
 }
 
 .custom-navbar .nav li a:hover {
@@ -444,6 +442,36 @@ position: absolute;
   background-position: center;
 }
 
+.slider2 .item-first {
+  background-image: url(../images/Dates-Blog-.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider2 .item-second {
+  background-image: url(../images/palm-trees.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider2 .item-third {
+  background-image: url(../images/Dates-Blog-.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
 .overlay-layer {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -451,6 +479,15 @@ position: absolute;
   left: 0px;
   padding: 0;
   height: 100%;
+  width: 100%;
+}
+.overlay-layer2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 80vh;
   width: 100%;
 }
 
@@ -493,15 +530,6 @@ position: absolute;
   padding-bottom: 20px;
 }
 
-
-
-
-
-
-#team {
-background-color: var(--primaryColor);
-}
-
 .team-thumb {
   position: relative;
   overflow: hidden;
@@ -509,6 +537,7 @@ background-color: var(--primaryColor);
 }
 
 .team-info {
+  width: 100%;
   background-color: #222222;
   padding: 10px 30px 20px 30px;
 }
@@ -754,7 +783,6 @@ footer address p {
 
 .social-icon li a:hover {
   background: var(--primaryColor);
-  color: #ffffff;
 }
 
 
@@ -783,16 +811,45 @@ footer address p {
   margin-top: 10%;
 }
 
-
 .for-export {
 width:100%;
-padding: 5%;
+padding: 5% 0 0 0;
 }
 
-.for-Export-title p{
-  margin: 30px 0;
-  font-size: 20px;
+.ourProducts {
+background-color: var(--primaryColor);
+width:100%;
+padding: 0 5% 5% 5%;
+
 }
+
+.product-box-group{
+  margin-top: 6%;
+}
+
+.product-box img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.for-Export-title p{
+  font-style: oblique;
+  height: 80%;
+  padding: 0%5;
+  margin: 20% 10%;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.palm-trees img{
+  width: 30%;
+  text-align: center;  
+  margin-left: auto;  
+  margin-right: auto;  
+}
+
 
 
 
@@ -841,10 +898,8 @@ color: var(--secondaryColor);
 .ourProducts h2{
   margin-top: 3%;
 }
-.ourProducts{
-  background-color: var(--secondaryColor);
-}
-.ourProducts .footerSection{
+
+.footerSection{
   background-color: var(--secondaryColor);
 }
 .footer{
@@ -876,8 +931,14 @@ color: var(--secondaryColor);
   margin-bottom: 10px;
   position: absolute;
 }
-
 .leaves-img3{
+  float: right;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  position: absolute;
+}
+
+.leaves-img4{
   float: right;
   margin-right: 10%;
   margin-bottom: 10px;
@@ -890,14 +951,14 @@ color: var(--secondaryColor);
 .leves5 img{
   width: 25%;
   float: left;
-  margin-right: 50px;
+  margin-left: 35%;
 }
 .for-export{
   background-color: var(--thirdColor);
 }
 
 .contacT{
-  background-color: var(--primaryColor);
+  background-color: var(--fourthColor);
 }
 .navIcon{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -934,9 +995,177 @@ background: transparent;
 
 }
 
+
 .for-export h4 {
   color: var(--secondaryColor);
 }
 .socia-Icon{
   z-index: 10;
 }
+
+
+.footer-distributed{
+	background: var(--thirdColor);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+  text-align: center;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 20px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #eaecee;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+  float: left;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-social-icons{
+display: flex;
+justify-content: center;
+padding-top: 5px;
+flex-wrap: nowrap;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
