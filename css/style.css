@@ -1,7 +1,11 @@
-/*
-jana dates product website 
+/* jana dates product website */
 
-*/
+
+/*Universal selector property*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   --primaryColor: #ffab4c;
