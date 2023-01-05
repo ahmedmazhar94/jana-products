@@ -113,7 +113,7 @@ a:focus {
 }
 
 .for-export-s-title {
-  padding: 20px;
+  padding: 25px;
  
 }
 
@@ -126,6 +126,7 @@ a:focus {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-top: 0;
+  
 }
 
 .overlay {
@@ -823,9 +824,8 @@ footer address p {
 }
 
 .about-Img img {
-  width: 75%;
+  width: 65%;
   border-radius: 5px;
-
   margin-left: 13%;
 }
 
@@ -848,12 +848,32 @@ footer address p {
   background-color: var(--primaryColor);
   width: 100%;
   padding: 0 5% 5% 5%;
-
+  text-align: center;
 }
 
-.ourProducts-title h2,h4{
+.ourProducts-title{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ourProducts-title h2{
 text-align: center;
+font-style:  'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+line-height: 5px;
+padding: 10px;
 }
+
+.ourProducts-title h4{
+  text-align: center;
+  font-style:  'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+  line-height: 5px;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3px;
+  
+}
+
 .product-box-group {
   margin-top: 6%;
 }
@@ -932,10 +952,6 @@ p {
 .ourProducts h2,
 h4 {
   color: var(--fourthColor);
-}
-
-.ourProducts h2 {
-
 }
 
 .footerSection {
@@ -1118,7 +1134,7 @@ h4 {
 
 .footer-distributed .footer-center i {
   background-color: #33383b;
-  color: #ffffff;
+  color: var(--primaryColor);
   font-size: 20px;
   width: 38px;
   height: 38px;
