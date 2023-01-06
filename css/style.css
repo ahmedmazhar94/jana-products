@@ -8,7 +8,8 @@
   box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -21,8 +22,8 @@ html {
 
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 h1,
@@ -82,7 +83,7 @@ a {
 
 
 .nav-Logo {
-  width: 30%;
+  width: 35%;
   position: absolute;
   padding-right: 30px;
   box-shadow: 200px #1c1c1c;
@@ -114,7 +115,7 @@ a:focus {
 
 .for-export-s-title {
   padding: 25px;
- 
+
 }
 
 .for-export h2 {
@@ -126,7 +127,7 @@ a:focus {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-top: 0;
-  
+
 }
 
 .overlay {
@@ -770,7 +771,7 @@ section {
 }
 
 #contact button#cf-submit:hover {
-  background: var(--thirdColor);
+  background: var(--primaryColor);
   color: #ffffff;
 }
 
@@ -826,7 +827,7 @@ footer address p {
 .about-Img img {
   width: 65%;
   border-radius: 5px;
-  margin-left: 13%;
+  margin-left: 16%;
 }
 
 .about-info p {
@@ -845,33 +846,30 @@ footer address p {
 }
 
 .ourProducts {
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColor);
   width: 100%;
   padding: 0 5% 5% 5%;
   text-align: center;
 }
 
-.ourProducts-title{
+.ourProducts-title {
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.ourProducts-title h2{
-text-align: center;
-font-style:  'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-line-height: 5px;
-padding: 10px;
+.ourProducts-title h2 {
+  text-align: center;
+  font-style: 'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 5px;
+  padding: 10px;
 }
 
-.ourProducts-title h4{
+.ourProducts-title h4 {
   text-align: center;
-  font-style:  'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  letter-spacing: 3px;
-  line-height: 5px;
+  font-style: 'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: small;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 3px;
-  
+
 }
 
 .product-box-group {
@@ -1015,7 +1013,7 @@ h4 {
 }
 
 .for-export {
-  background-color: var(--thirdColor);
+  background-color: var(--primaryColor);
 }
 
 .contacT {
@@ -1029,7 +1027,7 @@ h4 {
 
 .btn-0 li a i {
   font-size: 30px;
-  color: var(--thirdColor);
+  color: var(--primaryColor);
   padding: 10px;
 }
 
@@ -1068,7 +1066,7 @@ h4 {
 
 
 .footer-distributed {
-  background: var(--thirdColor);
+  background: var(--secondaryColor);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -1099,14 +1097,12 @@ h4 {
   margin: 0;
 }
 
-.footer-distributed h3 span {
-  color: lightseagreen;
-}
+
 
 /* Footer links */
 
 .footer-distributed .footer-links {
-  color: #ffffff;
+  color: #222222;
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -1142,7 +1138,7 @@ h4 {
   text-align: center;
   line-height: 40px;
   margin: 10px 10px;
-  
+
 }
 
 .footer-distributed .footer-center i.fa-envelope {
@@ -1152,9 +1148,10 @@ h4 {
 
 .footer-distributed .footer-center p {
   display: inline-block;
-  color: #ffffff;
+  color: #222222;
   font-weight: 400;
   vertical-align: middle;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -1188,7 +1185,7 @@ h4 {
 
 .footer-distributed .footer-company-about {
   line-height: 20px;
-  color: #eaecee;
+  color: #222222;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
@@ -1196,7 +1193,7 @@ h4 {
 
 .footer-distributed .footer-company-about span {
   display: block;
-  color: #ffffff;
+  color: #222222;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -1216,7 +1213,7 @@ h4 {
   border-radius: 2px;
 
   font-size: 20px;
-  color: #ffffff;
+  color: #222222;
   text-align: center;
   line-height: 35px;
 
@@ -1230,8 +1227,13 @@ h4 {
   padding-top: 5px;
   flex-wrap: nowrap;
 }
-.email-icon p{
+
+.email-icon p {
   flex-wrap: nowrap;
-font-size: medium;
-font-weight: bolder;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.footer-distributed {
+  color: #222222;
 }
